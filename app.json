@@ -1,14 +1,18 @@
 {
   "expo": {
-    "name": "imc",
+    "name": "ImcCalculator",
     "slug": "imc",
     "version": "1.0.0",
     "orientation": "portrait",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#00ff99"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,7 +21,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.iagodeveloper.imccalculator"
+    },
+    "android": {
+      "package": "com.iagodeveloper.imccalculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
